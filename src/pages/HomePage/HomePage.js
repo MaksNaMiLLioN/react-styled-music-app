@@ -3,6 +3,7 @@ import Hero from '../../components/Hero/Hero'
 import { heroOne, heroTwo, heroThree, pricingData } from '../../data/homeData';
 import Content from '../../components/Content/Content'
 import Pricing from '../../components/Pricing/Pricing';
+import Footer from '../../components/Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Content {...heroTwo}/>
         <Content {...heroThree}/>
         <Pricing />
+        <Footer />
         </>
     )
 }
